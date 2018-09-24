@@ -6,13 +6,16 @@ export function obtenerDiferenciaAnio(year) {
      let incremento;
  
      switch (modelo) {
-         case 'europeo':
+         case 'peugeot':
              incremento = 1.30;
              break;
-         case 'americano':
+         case 'ford':
              incremento = 1.15;
              break;
-         case 'asiatico':
+         case 'chevrolet':
+             incremento = 1.05;
+             break;
+        case 'fiat':
              incremento = 1.05;
              break;
          default:

@@ -31,9 +31,10 @@ class Formulario extends Component {
                 <div className="campo">
                     <label>Marca</label>
                     <select name="marca" ref={this.marcaRef} >
-                        <option value="americano">Americano</option>
-                        <option value="europeo">Europeo</option>
-                        <option value="asiatico">Asiatico</option>
+                        <option value="peugeot">Peugeot</option>
+                        <option value="chevrolet">Chevrolet</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="ford">Ford</option>
                     </select>
                 </div>
 
